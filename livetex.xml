@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE extension PUBLIC "-//Joomla! 3.0//DTD template 1.0//EN" "http://help.aunited.ru/dtd/joomla/3.0/plugin-install.dtd">
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+  <name>PLG_SYSTEM_LIVETEX</name>
+  <author>Vitaliy Zhukov</author>
+  <creationDate>January 2017</creationDate>
+  <authorEmail>info@aunited.ru</authorEmail>
+  <authorUrl>http://aunited.ru</authorUrl>
+  <version>0.1</version>
+  <copyright>Copyright (c) 2017 AUnuted Co. Ltd. All rights reserved.</copyright>
+  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+  <description><![CDATA[PLG_LIVETEX_XML_DESCRIPTION]]></description>
+  <files>
+	<folder>language</folder>
+    <filename plugin="livetex">livetex.php</filename>
+    <filename>index.html</filename>
+  </files>
+  <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_livetex.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_livetex.sys.ini</language>
+		<language tag="ru-RU">language/ru-RU/ru-RU.plg_system_livetex.ini</language>
+        <language tag="ru-RU">language/ru-RU/ru-RU.plg_system_livetex.sys.ini</language>
+    </languages>
+  <config>
+    <fields name="params" >
+      <fieldset name="Basic">
+		<field name="enabled" type="radio" class="btn-group btn-group-yesno" default="0" label="PLG_SYS_LIVETEX_ENABLED" description="PLG_SYS_LIVETEX_ENABLED_DESC">
+              <option value="0">JNo</option>
+              <option value="1">JYes</option>
+		</field> 
+            <field name="id" type="text" default="XXXXXXXXXX" label="PLG_SYS_LIVETEX_ID" description="PLG_SYS_LIVETEX_ID_DESC"> </field>
+        </fieldset>
+    </fields>
+  </config>
+    <updateservers>
+        <server type="extension" priority="1" name="livetex"><![CDATA[http://help.aunited.ru/livetex/update/livetex-update.xml]]></server>
+    </updateservers>
+</extension>

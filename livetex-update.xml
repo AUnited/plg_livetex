@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE updates PUBLIC "-//Joomla! 3.0//DTD template 1.0//EN" "http://help.aunited.ru/dtd/joomla/3.0/update.dtd">
+<updates>
+   <update>
+      <name>livetex</name>
+      <description>Jivosite plugin for Joomla</description>
+      <element>plg_livetex</element>
+      <type>plugin</type>
+      <version>0.1</version>
+ 
+      <infourl title="SunStat URL">http://help.aunited.ru/livetex/</infourl>
+      <downloads>
+         <downloadurl type="full" format="zip">https://github.com/AUnited/plg_livetex/archive/0.1.zip</downloadurl>
+      </downloads>
+      <tags>
+         <tag>livetex</tag>
+      </tags>
+ 
+      <maintainer>AUnited Company Limited</maintainer>
+      <maintainerurl>http://aunited.ru</maintainerurl>
+      <targetplatform name="joomla" version="3.0" />
+   </update>
+</updates>
