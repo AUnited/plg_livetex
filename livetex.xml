@@ -33,6 +33,6 @@
     </fields>
   </config>
     <updateservers>
-        <server type="extension" priority="1" name="livetex"><![CDATA[http://help.aunited.ru/livetex/update/livetex-update.xml]]></server>
+        <server type="extension" priority="1" name="livetex"><![CDATA[http://help.aunited.ru/leadgen/update/leadgen-update.xml]]></server>
     </updateservers>
 </extension>
